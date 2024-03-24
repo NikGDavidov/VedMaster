@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Items</title>
+</head>
+<body>
+<h1>Список товаров</h1>
+<br>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Supplier</th>
+        <th>Purchase Price</th>
+        <th>Current quantity</th>
+
+    </tr>
+    <tr th:each="item: ${items}">
+        <td th:text="${item.getId()}"></td>
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getSupplier().getName()}"></td>
+        <td th:text = "${item.getPrice().getPurchasePrice()}"></td>
+        <td th:text = "${item.getRemains().getCurrentQty()}"></td>
+    </tr>
+</table>
+
+</body>
+</html>

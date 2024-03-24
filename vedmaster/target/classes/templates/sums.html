@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Total Amounts</title>
+</head>
+<body>
+<h1>Общая сумма заказов</h1>
+<table>
+    <tr><th>Sum in Euro</th>
+        <td th:text="${ordersAmountView.getEuroAmount()}"></td>
+    </tr>
+    <br>
+    <tr><th>Sum in USD</th>
+        <td th:text="${ordersAmountView.getUsdAmount()}"></td>
+    </tr>
+    <br>
+    <tr><th>Sum in RMB</th>
+        <td th:text="${ordersAmountView.getRmbAmount()}"></td>
+    </tr>
+    <br>
+    <tr><th>Sum in RUB</th>
+        <td th:text="${ordersAmountView.getRubAmount()}"></td>
+    </tr>
+    <br>
+
+
+    </table>
+</body>
+</html>

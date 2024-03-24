@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orders</title>
+</head>
+<body>
+<h1>Список заказов</h1>
+<br>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Week</th>
+        <th>Total Amount</th>
+        <th>Currency</th>
+    </tr>
+    <tr th:each="order: ${orders}">
+        <td th:text="${order.getId()}"></td>
+        <td th:text="${order.getSupplierName()}"></td>
+        <td th:text="${order.getWeek()}"></td>
+        <td th:text = "${order.getOrderTotalAmount()}"></td>
+        <td th:text = "${order.getCurrency()}"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

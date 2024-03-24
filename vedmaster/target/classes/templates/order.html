@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orders</title>
+</head>
+<body>
+<h1>Заказ</h1>
+<br>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Supplier</th>
+        <th>Week</th>
+        <th>Article</th>
+        <th>Name</th>
+        <th>Q-ty</th>
+        <th>Price</th>
+        <th>Amount</th>
+        <th>Currency</th>
+    </tr>
+
+    <tr th:each="itemOrderView: ${itemOrderViews}" >
+        <td th:text="${itemOrderView.getId()}"></td>
+        <td th:text="${itemOrderView.getSupplierName()}"></td>
+        <td th:text="${itemOrderView.getWeek()}"></td>
+        <td th:text = "${itemOrderView.getItemArticle()}"></td>
+        <td th:text = "${itemOrderView.getItemName()}"></td>
+        <td th:text = "${itemOrderView.getItemQuantity()}"></td>
+        <td th:text = "${itemOrderView.getItemPurchasePrice()}"></td>
+        <td th:text = "${itemOrderView.getAmount()}"></td>
+        <td th:text = "${itemOrderView.getCurrency()}"></td>
+        </tr>
+
+</table>
+
+</body>
+</html>

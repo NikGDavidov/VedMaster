@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Start page</title>
+</head>
+<body>
+<h1>Задайте реквизиты поставщика</h1>
+<br>
+
+<form th:action="@{/showSupplierDetails}" th:object="${supplier}" method="get">
+
+  <div>
+    <label>name:</label>
+    <input type="text" th:field="*{name}" placeholder="имя поставщика" />
+  </div>
+  <br>
+  <div>
+    <label>minimum order amount:</label>
+    <input type="number" th:field="*{minOrderAmount}" placeholder="20000" />
+  </div>
+  <br>
+  <div>
+    <label>lead time:</label>
+    <input type="number" th:field="*{leadTime}" placeholder="8" />
+  </div>
+  <br>
+  <div>
+    <label>delivery time:</label>
+    <input type="number" th:field="*{deliveryTime}" placeholder="4" />
+  </div>
+  <br>
+  <div>
+    <label>order period:</label>
+    <input type="number" th:field="*{orderPeriod}" placeholder="12" />
+  </div>
+  <br>
+  <div>
+    <label>delivery cost factor:</label>
+    <input type="text" th:field="*{deliveryCostFactor}" placeholder="1.2" />
+
+  </div>
+  <br>
+  <div>
+    <label>Currency:</label>
+    <input type="text" th:field="*{currency}" placeholder="EUR" />
+
+  </div>
+
+
+  <br>
+  <input type="submit" value="OK"/>
+</form>
+</body>
+</html>

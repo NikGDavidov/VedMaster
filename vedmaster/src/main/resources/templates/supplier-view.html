@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Supplier</title>
+</head>
+<body>
+<h1>Заданные параметры</h1>
+<table>
+    <tr><th>Supplier Name</th>
+        <td th:text="${supplier.getName()}"></td>
+    </tr>
+    <br>
+    <tr><th>Min Order Amount</th>
+        <td th:text="${supplier.getMinOrderAmount()}"></td>
+    </tr>
+    <br>
+    <tr><th>Lead Time</th>
+        <td th:text="${supplier.getLeadTime()}"></td>
+    </tr>
+    <br>
+    <tr><th>Delivery Time</th>
+        <td th:text="${supplier.getDeliveryTime()}"></td>
+    </tr>
+    <br>
+    <tr><th>Order Period</th>
+        <td th:text="${supplier.getOrderPeriod()}"></td>
+    </tr>
+    <br>
+    <tr><th>Delivery Cost Factor</th>
+        <td th:text="${supplier.getDeliveryCostFactor()}"></td>
+    </tr>
+    <br>
+    <tr><th>Currency</th>
+        <td th:text="${supplier.getCurrency()}"></td>
+    </tr>
+
+
+</table>
+<form th:action="@{/filePath} ">
+
+<br>
+    <input type="submit" value="OK"/>
+</form>
+
+
+</body>
+</html>

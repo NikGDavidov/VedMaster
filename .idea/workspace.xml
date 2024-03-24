@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="vedmaster:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ce91ced-ba6d-4391-b80c-d462ed4f7076" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2c6MDsJg2uwS6dp8j3vsZWRJ6KY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Рабочий стол/Новая папка/vedmaster",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "ceb8dc213f4ff36caa67bbe382ff4566",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\OneDrive\Рабочий стол\vedmaster\vedmaster\vedmaster\src\main\java\com\davydov\vedmaster\calculation" />
+      <recent name="C:\Users\Lenovo\OneDrive\Рабочий стол\vedmaster\vedmaster\vedmaster\src\main\java\com\davydov\vedmaster\service" />
+      <recent name="C:\Users\Lenovo\OneDrive\Рабочий стол\ДЗ разработчик\SPRING\vedmaster\vedmaster\src\main\resources" />
+      <recent name="C:\Users\Lenovo\OneDrive\Рабочий стол\ДЗ разработчик\SPRING\vedmaster\vedmaster\src\main\java\com\davydov\vedmaster\models" />
+      <recent name="C:\Users\Lenovo\OneDrive\Рабочий стол\ДЗ разработчик\SPRING\vedmaster\vedmaster\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="VedmasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="vedmaster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.davydov.vedmaster.VedmasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ce91ced-ba6d-4391-b80c-d462ed4f7076" name="Changes" comment="" />
+      <created>1707427470582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707427470582</updated>
+      <workItem from="1707427472371" duration="1639000" />
+      <workItem from="1708869666507" duration="9022000" />
+      <workItem from="1708976670273" duration="2701000" />
+      <workItem from="1709054735972" duration="4304000" />
+      <workItem from="1709065804537" duration="1515000" />
+      <workItem from="1709067523982" duration="842000" />
+      <workItem from="1709143245296" duration="9376000" />
+      <workItem from="1709153830484" duration="63000" />
+      <workItem from="1709234658746" duration="6773000" />
+      <workItem from="1709320640395" duration="7465000" />
+      <workItem from="1709367504930" duration="25402000" />
+      <workItem from="1709414748517" duration="3045000" />
+      <workItem from="1709454980021" duration="26773000" />
+      <workItem from="1710103710285" duration="8805000" />
+      <workItem from="1710182406848" duration="15690000" />
+      <workItem from="1710266862591" duration="1732000" />
+      <workItem from="1710273486569" duration="6990000" />
+      <workItem from="1710534682682" duration="4715000" />
+      <workItem from="1710581952308" duration="4750000" />
+      <workItem from="1710657993125" duration="16312000" />
+      <workItem from="1710789317085" duration="2685000" />
+      <workItem from="1710799852102" duration="740000" />
+      <workItem from="1710873942724" duration="9579000" />
+      <workItem from="1710957424350" duration="5672000" />
+      <workItem from="1711051080843" duration="1241000" />
+      <workItem from="1711131490389" duration="12962000" />
+      <workItem from="1711184511090" duration="433000" />
+      <workItem from="1711185047156" duration="5435000" />
+      <workItem from="1711190772384" duration="883000" />
+      <workItem from="1711191854967" duration="499000" />
+      <workItem from="1711192427943" duration="314000" />
+      <workItem from="1711193170274" duration="1017000" />
+      <workItem from="1711194468055" duration="425000" />
+      <workItem from="1711195786179" duration="3965000" />
+      <workItem from="1711205876315" duration="969000" />
+      <workItem from="1711207594089" duration="3875000" />
+      <workItem from="1711213611653" duration="1279000" />
+      <workItem from="1711215850690" duration="1270000" />
+      <workItem from="1711218149795" duration="1601000" />
+      <workItem from="1711224773727" duration="2640000" />
+      <workItem from="1711229868465" duration="831000" />
+      <workItem from="1711231256163" duration="1143000" />
+      <workItem from="1711232844408" duration="386000" />
+      <workItem from="1711233680367" duration="1154000" />
+      <workItem from="1711234921201" duration="4485000" />
+      <workItem from="1711304860594" duration="558000" />
+      <workItem from="1711305964410" duration="1571000" />
+      <workItem from="1711308884221" duration="1122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
